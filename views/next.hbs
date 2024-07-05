@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Details Form</title>
+    <link rel="stylesheet" href="css/style2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2> Employee Details Form</h2>
+      <form action="/submit-second-form" method="post">
+
+        <label for="address">Address (Max 500 words):</label><br />
+        <textarea
+          id="address"
+          name="address"
+          rows="5"
+          maxlength="500"
+        ></textarea><br />
+
+        <label for="phone">Phone Number (10 digits):</label><br />
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          pattern="[0-9]{10}"
+          required
+        /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <input type="submit" value="Submit" class="submit-button" />
+      </form>
+    </div>
+  </body>
+</html>

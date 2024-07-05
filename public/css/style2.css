@@ -1,0 +1,116 @@
+body {
+  background: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  color: #555;
+  margin-bottom: 0px; /* Add margin between labels */
+}
+
+
+/* Adjust the styling for radio button containers */
+.radio-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 10px; /* Add margin between radio button containers */
+  justify-items: start;
+}
+
+.gender-con{
+  display: flex;
+}
+
+.femaleradio{
+  margin-left: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px; /* Add margin between input fields */
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #333;
+}
+
+button,
+.submit-button {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+.submit-button:hover {
+  background-color: #313131;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* Remove the fixed positioning for .anchor-button */
+.anchor-button {
+  position: relative; /* Change to relative positioning */
+  margin-top: 20px; /* Adjust margin to create space between button and other form elements */
+}
+
+/* Adjust button styling */
+button.anchor-button,
+.submit-button {
+  background-color: #007bff; /* Keep button background color consistent */
+  color: #fff; /* Keep button text color consistent */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  text-decoration: none; /* Remove default underline */
+  width: auto; /* Allow button width to adjust based on content */
+  padding: 10px 20px; /* Adjust padding for button */
+  margin-left: auto; /* Align button to the right within the form */
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  margin-top: 0px; /* Reduce margin-top for spacing */
+  margin-bottom: 10px; /* Reduce margin-bottom for spacing */
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #333;
+}
